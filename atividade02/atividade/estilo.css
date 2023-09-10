@@ -1,0 +1,49 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex; /* Para centralizar verticalmente e horizontalmente */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Para ocupar toda a altura da viewport */
+}
+
+/* Estilos para o título */
+h1 {
+    color: #333;
+}
+
+/* Estilos para o botão de gerar piada */
+#gerarPiada {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#gerarPiada:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para a piada */
+#piada {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilos para a imagem do cachorro de reação */
+#cachorroReacao {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
